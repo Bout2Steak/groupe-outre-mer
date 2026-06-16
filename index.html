@@ -5,16 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- TO DO : changer le titre de l'onglet -->
+    <title>Kaz'house</title>
 </head>
 
 <body>
     <header>
-        <img src="assets/image20.png">
+        <img src="assets/logo.png">
         <nav>
-            <a href="#">Solution</a>
-            <a href="#">Promesses</a>
-            <a href="#">Télécharger</a>
+            <div class="lienNav">
+                <a href="#">Solution</a>
+                <a href="#">Promesses</a>
+                <a class="buttonNav" href="#">Télécharger</a>
+            </div>
         </nav>
     </header>
 
@@ -24,47 +32,54 @@
         <img src="assets/images.png" alt="télécharger sur play store">
     </section>
 
-
-
-
     <section class="problematique">
-        <h2>+ 30 000...</h2>
+        <h2 class="titresectiondeux">+ 30 000...</h2>
         <div>
-            <img src="">
-            <p>C’est le nombre d’ultramarins qui quittent les départements d’outre-mer pour rejoindre l’hexagone chaque année.</p>
-            <p>La mobilité des populations ultramarines vers l'Hexagone concerne plusieurs dizaines de milliers de personnes chaque année. Pourtant, l'accès au logement reste l'un des principaux freins à leur installation, en raison de coûts locatifs élevés, d'une offre insuffisante et de contraintes administratives spécifiques.</p>
+            <img class="image-problematique" src="assets/imgProblematique.png">
+            <p>C’est le nombre d’ultramarins qui quittent les départements d’outre-mer pour rejoindre l’hexagone chaque
+                année.</p>
+            <p>La mobilité des populations ultramarines vers l'Hexagone concerne plusieurs dizaines de milliers de
+                personnes chaque année. Pourtant, l'accès au logement reste l'un des principaux freins à leur
+                installation, en raison de coûts locatifs élevés, d'une offre insuffisante et de contraintes
+                administratives spécifiques.</p>
         </div>
     </section>
 
-    
     <section class="solution">
         <h2>Nos référents</h2>
-        <p>Faciliter l’installation des bénéficiaires ultramarins grâce à un accompagnement local, humain et personnalisé partout en France métropolitaine.</p>
-        <p>Nos référents en France métropolitaine sont là pour accompagner les bénéficaires venus d’Outre-mer dans leurs recherche de logement. Ils apportent un soutien personnalisé, 
-            conseillent sur les démarche à effecturer et facilitent l’installation afin de garantir une intégration dans les meilleurs conditions</p>
+        <p>Faciliter l’installation des bénéficiaires ultramarins grâce à un accompagnement local, humain et
+            personnalisé partout en France métropolitaine.</p>
+        <p>Nos référents en France métropolitaine sont là pour accompagner les bénéficaires venus d’Outre-mer dans leurs
+            recherche de logement. Ils apportent un soutien personnalisé,
+            conseillent sur les démarche à effecturer et facilitent l’installation afin de garantir une intégration dans
+            les meilleurs conditions</p>
+        <!-- TO DO : pourquoi une div autour de cette image -->
         <div>
-            <img src="assets/sectionréférent.png">
+            <!-- TO DO : pas d'accent dans les noms de fichier -->
+            <img src="assets/imgReferent.jpg">
         </div>
-
     </section>
 
-
     <section class="preuve">
-         <h2>Un service fiable</h2>
-         <div>
+        <h2>Un service fiable</h2>
+        <div>
             <h3>+ de 20 000</h3>
             <p>personnes accompagnées dans leur recherche de logement</p>
             <p>+ de 2 000 000 de personnes accompagnées dans leur recherche de logement.
-               Chaque jour, des milliers de personnes sont guidées dans leurs démarches pour trouver un logement adapté à leurs besoins. Avec confiance, respect et simplicité, nous facilitons leurs parcours jusqu’à la réussite.</p>
-         </div>
+                Chaque jour, des milliers de personnes sont guidées dans leurs démarches pour trouver un logement adapté
+                à leurs besoins. Avec confiance, respect et simplicité, nous facilitons leurs parcours jusqu’à la
+                réussite.</p>
+        </div>
 
-         <div>
+        <div>
             <h3>+ de 400</h3>
             <p>Garant disponible pour vous !</p>
-            <p>Oui, on peut avoir un site fermé, et garder l’esprit ouvert !Tous les jours, les membres font des affaires, des dons, des recommandations… Avec leurs vrais noms et prénoms, et surtout, dans le respect. Et oui, ils ont commencé par trouver</p>
-         </div>
+            <p>Oui, on peut avoir un site fermé, et garder l’esprit ouvert !Tous les jours, les membres font des
+                affaires, des dons, des recommandations… Avec leurs vrais noms et prénoms, et surtout, dans le respect.
+                Et oui, ils ont commencé par trouver</p>
+        </div>
     </section>
->
+
     <section class="engagement">
         <h3>ENGAGEMENTS</h3>
         <ul>
@@ -75,8 +90,37 @@
             <li>Prendre rapidement en charge vos demandes</li>
             <li>Trouver des garants certifiés rapidement</li>
         </ul>
-
+        <div>
+            <a href="">Télécharger</a>
+            <img src="" alt="">
+        </div>
     </section>
+
+    <section class="CTA">
+        <div>
+            <div>
+                <p>Scanner le code QR:</p>
+                <img src="assets/codeQR.png" alt="code QR">
+            </div>
+            <div>
+                <p>Télécharger l'application Kaz'House dès maintenant</p>
+                <div>
+                    <img src="assets/Apple.svg" alt="">
+                    <img src="assets/imgGooglePlay.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="">Télécharger</a>
+            <img src="assets/imgHandDossiers.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+
 
 
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
