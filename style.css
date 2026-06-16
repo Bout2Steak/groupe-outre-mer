@@ -20,7 +20,7 @@ header{
 }
 
 
-/* section nav */
+/* DEEBUT section nav */
 .buttonNav{
 
     display: flex;
@@ -40,13 +40,13 @@ header{
     flex-direction: row;
     padding: 20px 20px;
 }
-    
+
+/* FIN section nav */
 
 
-/* section nav */
 
 
-/* Section problematique */
+/* DEBUT Section problematique */
 
 .problematique{
     min-height: 600px;
@@ -63,14 +63,20 @@ header{
     width: 300px;
 }
 
+/* FIN Section problematique */
 
 
-/* Section problematique */
 
 
-/* Section preuve */
+/* DEBUT Section preuve */
 
 .preuve{
     background-color: #00326B;
     color: white;
 }
+
+/* FIN Section preuve */
+
+
+
+
