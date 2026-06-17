@@ -1,0 +1,68 @@
+:root {
+    --bleu: #00326B;
+    --p-size: 16px;
+    --h1-size: 47.78px;
+    --h2-size:39.81px;
+    --h3-size:33.18px;
+    --h5-size: 24px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.section-set-up {
+    padding: 2rem;
+}
+
+.card-persona {
+    width: 500px;
+}
+
+.contexte {
+    min-height: 600px;
+}
+
+.paragraphe-contexte {
+    
+}
+
+/* partie maquette */
+.maquette-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.scenario-specifique-maquette {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.images-maquette {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.images-maquette img {
+    max-height: 75dvh;
+}

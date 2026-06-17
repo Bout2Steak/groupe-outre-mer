@@ -1,16 +1,23 @@
-<!-- TO DO : le dossier s'appelle pages ensuite on crée le dossier "documentation" sans majuscule et dedans c'est documentation.html et documentation.css -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleDocument.css">
-    <!-- TO DO : changer le nom de la page dans l'onglet -->
+    <link rel="stylesheet" href="documentation.css">
+    <link rel="stylesheet" href="../../style.css">
     <title>Documentation Kaz'House</title>
 </head>
 
 <body>
+    <header>
+        <img class="logo" src="../../assets/logo.png" alt="Kaz House" href="../../index.html">
+        <nav class="lien-nav">
+            <a href="../../index.html">Accueil</a>
+            <a href="#">Documentation</a>
+            <a class="buttonNav" href="../../index.html">Télécharger ⤓</a>
+        </nav>
+    </header>
     <section class="sommaire">
         <h1>Documentation Kaz'House</h1>
         <div>
@@ -28,82 +35,81 @@
 
     <section class="contexte">
         <h2>Contexte</h2>
-        <p class="paragrapheContexte">Cher journal...</p>
+        <p class="paragraphe-contexte">Dans le cadre d’un projet de conception centré sur l’humain, nous nous sommes
+            intéressés aux problématiques liées à l’accès au logement pour les personnes vivant en Outre-Mer et
+            souhaitant s’installer en France métropolitaine. Au cours de nos recherches, nous avons constaté que ces
+            personnes rencontrent de nombreuses difficultés dans leurs démarches, notamment en raison de la distance
+            géographique, de la méconnaissance du marché immobilier métropolitain et de la complexité des procédures
+            administratives.
+
+            Afin de répondre à ce besoin, nous avons imaginé une solution numérique permettant d’accompagner les futurs
+            arrivants dans leur recherche de logement. Cette plateforme met en relation un demandeur, vivant en
+            Outre-Mer, et un référent présent en métropole chargé de l’aider dans ses démarches. L’objectif est de
+            simplifier l’accès au logement grâce à des fonctionnalités telles que la consultation des offres sur une
+            carte interactive, les visites virtuelles, le suivi des étapes administratives, la transmission sécurisée
+            des documents via un coffre-fort numérique et la communication directe avec un référent.
+
+            Notre solution vise à offrir un accompagnement personnalisé, à réduire les obstacles liés à la distance et à
+            faciliter l’installation des bénéficiaires en métropole. À travers ce projet, nous cherchons à proposer une
+            expérience plus humaine, accessible et rassurante pour les personnes contraintes d’organiser leur
+            déménagement à plusieurs milliers de kilomètres de leur futur lieu de vie.
+        </p>
     </section>
     <section class="persona">
-        <article class="cardsPersona">
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <div>
-                        <h3>...</h3>
-                        <p>...</p>
-                    </div>
-                </div>
-
-                <div>
-                    <p>...</p>
-                    <p>...</p>
-                    <p>...</p>
-                </div>
-
-                <p>...</p>
-            </div>
-            <div>
-                <div>
-                    <h3>Objectifs</h3>
-                    <ul>
-                        <li>...</li>                        
-                        <li>...</li>                        
-                        <li>...</li>                        
-                    </ul>
-                </div>
-                <div>
-                    <h3>Besoins</h3>
-                    <ul>
-                        <li>...</li>
-                        <li>...</li>
-                        <li>...</li>                        
-                    </ul>
-                </div>
-            </div>
-        </article>
+        <img class="card-persona" src="../../assets/personaUtilisateur.png" alt="">
+        <img class="card-persona" src="../../assets/personaReferent.png" alt="">
     </section>
-
-
 
     <section class="services">
         <h2>Nos services</h2>
-        <!-- TO DO : elles ont pas toutes le même style tes cards ? Pourquoi tu crées un style par card ? -->
         <div class="card">
-            <img src="">
+            <img src="assets/iconCheckMark.png">
             <h3>Garants certifiés</h3>
             <p>Rentrez en contact avec un garant disposant d’une situation financière robuste et répondant pleinement
                 aux critères de solvabilité attendus</p>
         </div>
 
         <div class="card">
-            <img src="">
-            <h3>Données </h3>
-            <p>Conforme au RGPD et appuyée par des mécanismes de sécurité de pointe, notre plateforme garantit 
-                une protection fiable, transparente et responsable de vos données personnelles.</p>
+            <img src="../../assets/iconShield.png">/assets/iconIDCard.png
+            <h3>Données sécurisées</h3>
+            <p>Conforme au RGPD, notre plateforme garantit une protection fiable, transparente et responsable de vos
+                données personnelles.</p>
         </div>
 
         <div class="card">
-            <img src="">
-            <h3></h3>
-            <p></p>
+            <img src="../../assets/iconIDCard.png">
+            <h3>Référents disponibles</h3>
+            <p>Disponible 24h/24, nos référents son reconnus pour leur sens de l'écoute, leur réactivité et leur
+                intégrité,
+                des qualités humaines qui garantissent un accompagnement de qualité à chaque étape.</p>
         </div>
     </section>
 
-    <section class="maquette">
-        <h2></h2>
+    <section class="section-set-up maquette-section">
+        <h2>Maquettes</h2>
+        <div class="scenario-specifique-maquette">
+            <h3>Contactez instantanément votre référent peu importe votre problématique</h3>
+            <div class="images-maquette">
+                <img src="../../assets/figmaDocument.png">
+                <img src="../../assets/figmaMessage.png">
+            </div>
+        </div>
+
         <div>
-            <img src="">
-            <p></p>
-        </div>
+            <h3>Personnalisez et accédez en quelque clique à vos documents les plus confidentiels</h3>
+            <div class="images-maquette">
+                <img src="/assets/figmaID.png">
+                <img src="/assets/figmaPassword.png">
+                <img src="/assets/figmaIDLock.png">
+            </div>
     </section>
 
+    <section class="wireframe">
+        <img src="../../assets/figmaUserflow.png" alt="">
+    </section>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="393" height="852" src="https://embed.figma.com/proto/iysvDVxhJqBZxOyCj4x4xF/kaz-home?node-id=725-2071&p=f&scaling=scale-down&content-scaling=fixed&page-id=4%3A27&starting-point-node-id=725%3A2071&embed-host=share%22
+  allowfullscreen">
+    </iframe>
 </body>
 
 </html>
