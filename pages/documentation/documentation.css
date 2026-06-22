@@ -11,6 +11,49 @@ body{
     background-color:#F7F9FC;
 }
 
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 50, 107, .65);
+    z-index: 9999;
+}
+
+
+
+
+/* DEBUT Section nav */
+
+.logo {
+    height: 74px;
+}
+
+.lienNav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.lienNav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.buttonNav {
+    background: white;
+    color: var(--bleu) !important;
+    padding: 12px 28px;
+    border-radius: 30px;
+}
+
 /* Section hero */
 
 .sommaire{
@@ -68,6 +111,33 @@ section h2{
     margin-bottom:50px;
 }
 
+
+
+
+
+
+/* Section Persona */
+
+.persona{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+    background:#EDF3FC;
+}
+
+.card-persona{
+    width:750px;
+    max-width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+/* Section Persona */
+
+
+
 /* Section contexte */
 
 .paragraphe-contexte{
@@ -84,34 +154,10 @@ section h2{
 
 
 
-
-
-/* Section Persona */
-
-.persona{
-    display:flex;
-    justify-content:center;
-    gap:40px;
-    flex-wrap:wrap;
-    background:#EDF3FC;
-}
-
-.card-persona{
-    width:550px;
-    max-width:100%;
-    border-radius:20px;
-    box-shadow:0 10px 25px rgba(0,0,0,0.1);
-}
-/* Section Persona */
-
-
-
-
-
 /* Section Service */
 .services{
     display:flex;
-    justify-content:center;
+    flex-direction:row;
     gap:30px;
     flex-wrap:wrap;
 }
@@ -121,7 +167,7 @@ section h2{
 }
 
 .card{
-    width:320px;
+    width:310px;
     background:white;
     padding:35px;
     border-radius:20px;
@@ -174,6 +220,7 @@ section h2{
 .images-maquette{
     display:flex;
     justify-content:center;
+    width : 400px;
     gap:30px;
     flex-wrap:wrap;
 }
