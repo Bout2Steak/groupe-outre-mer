@@ -214,6 +214,8 @@ section h2{
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
 
+
+
 .maquette-section h3{
     text-align:center;
     font-size:var(--h3-size);
@@ -231,6 +233,18 @@ section h2{
     width:1000px;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.images-documentWire{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+.images-documentWire img{
+     width:600px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    
 }
 /* Section Maquette */
 
