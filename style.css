@@ -297,62 +297,49 @@ header {
 
 /* DEBUT Section engagement */
 
-.engagement {
-    display: flex;
-    min-height: 550px;
+
+.engagement{
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f5f5f5;
 }
 
-.titreEngagement {
-    width: 160px;
-    background: var(--bleu);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.titreEngagement h3{
+    font-size: 60px;
+    color: #003b82;
+    margin-bottom: 20px;
 }
 
-.titreEngagement h3 {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    color: white;
-    font-size: var(--h3-size);
-    letter-spacing: 8px;
+.titreEngagement p{
+    color: #003b82;
+    margin-bottom: 50px;
 }
 
-.contenuEngagement {
-    flex: 1;
-    padding: 70px 60px;
-    background: #f3f3f3;
-}
-
-.contenuEngagement ul {
+.contenuEngagement ul{
     list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
 
-.contenuEngagement li {
-    font-size: var(--p-size);
-    color: var(--bleu);
-    margin-bottom: 30px;
-    position: relative;
-    padding-left: 40px;
+.contenuEngagement li{
+    background-color: #e8f0fa;
+    color: #003b82;
+    padding: 15px 25px;
+    border-radius: 30px;
 }
 
-.contenuEngagement li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    top: -4px;
-    font-size: var(--p-size);
-}
-
-.btnDownload {
+.btnDownload{
     display: inline-block;
-    margin-top: 40px;
-    padding: 18px 50px;
-    background: var(--bleu);
+    margin-top: 50px;
+    background-color: #003b82;
     color: white;
     text-decoration: none;
-    border-radius: 18px;
-    font-weight: 600;
+    padding: 25px 60px;
+    border-radius: 15px;
+    font-weight: bold;
 }
 
 /* FIN Section Engagement */
@@ -414,25 +401,3 @@ header {
 }
 
     /* FIN Section CTA */
-
-
-
-    /* DEBUT Section Footer */
-
-    .buttonFotter {
-        background-color: #00326B;
-        color: white;
-        padding: 9px 11px;
-        border-radius: 10px;
-        margin: 29px 20px;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        width: 200px;
-    }
-
-
-    footer {
-        min-height: 30vh;
-    }
-    /* FIN Section Footer */
