@@ -220,7 +220,7 @@ section h2{
 }
 
 .card-persona{
-    width:750px;
+    width:950px;
     max-width:100%;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,0.1);
@@ -332,4 +332,202 @@ iframe{
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
 /* Section UserFlow */
+
+/* ========================= */
+/* SECTION TECHNOLOGIES */
+/* ========================= */
+
+.technologies{
+    background:#EDF3FC;
+    text-align:center;
+}
+
+.card-technologie{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:50px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card-Technologie-Imag{
+    width:120px;
+    margin-bottom:25px;
+}
+
+.card-Technologie-H2{
+    color:var(--bleu);
+    margin-bottom:10px;
+}
+
+.card-Technologie-H3{
+    color:#6CB46D;
+    margin-bottom:20px;
+}
+
+.card-Technologie-Para{
+    color:#5c677d;
+    line-height:1.8;
+}
+
+
+/* ========================= */
+/* SECTION EVOLUTIONS */
+/* ========================= */
+
+.evolutions{
+    background:white;
+}
+
+.evolution-container{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.evolution-card{
+    background:#EDF3FC;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.evolution-card:hover{
+    transform:translateY(-8px);
+}
+
+.evolution-card h3{
+    color:var(--bleu);
+    margin-bottom:20px;
+    font-size:1.6rem;
+}
+
+.evolution-card ul{
+    padding-left:20px;
+}
+
+.evolution-card li{
+    margin-bottom:15px;
+    color:#5c677d;
+    line-height:1.7;
+}
+
+/* Roadmap */
+
+.roadmap{
+    max-width:1000px;
+    margin:70px auto 0;
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.step-roadmap{
+    flex:1;
+    min-width:220px;
+    background:var(--bleu);
+    color:white;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    position:relative;
+}
+
+.step-roadmap span{
+    display:block;
+    font-size:2rem;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+/* ========================= */
+/* SECTION INSPIRATIONS */
+/* ========================= */
+
+.inspirations{
+    background:#EDF3FC;
+}
+
+.inspiration-grid{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.inspiration-card{
+    background:white;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.inspiration-card:hover{
+    transform:translateY(-8px);
+}
+
+.inspiration-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.inspiration-content{
+    padding:30px;
+}
+
+.inspiration-content h3{
+    color:var(--bleu);
+    margin-bottom:15px;
+}
+
+.inspiration-content p{
+    color:#5c677d;
+    line-height:1.8;
+}
+
+footer{
+    background: var(--white);
+    color: var(--bleu);
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer p{
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer p:first-child{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+footer a{
+    color: var(--bleu);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 2px solid rgb(159, 159, 159);
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+footer a:hover{
+    background: #e8f0fa;
+    color: var(--white);
+    border-color: rgb(222, 222, 222);
+}
+
 

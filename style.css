@@ -91,7 +91,7 @@ header {
 
 .heroContent h1 {
     color: white;
-    font-size: var(--h1-size);
+    font-size: var(--h2-size);
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 40px;
@@ -543,3 +543,46 @@ header {
 }
 
     /* FIN Section CTA */
+
+    /* ========================= */
+/* FOOTER */
+/* ========================= */
+
+footer{
+    background: var(--white);
+    color: var(--bleu);
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer p{
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer p:first-child{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+footer a{
+    color: var(--bleu);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 2px solid rgb(159, 159, 159);
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+footer a:hover{
+    background: #e8f0fa;
+    color: var(--white);
+    border-color: rgb(222, 222, 222);
+}
+
+
