@@ -214,6 +214,142 @@ header {
 
 
 
+.solutionReferent{
+    padding: 120px 8%;
+    background: #ffffff;
+}
+
+.solutionReferent h2{
+    text-align: center;
+    font-size: var(--h2-size);
+    font-weight: 700;
+    color: var(--bleu);
+    margin-bottom: 80px;
+}
+
+.solutionReferent > div{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.solutionReferent article{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    background: #fff;
+    border-radius: 35px;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.solutionReferent article:hover{
+    transform: translateY(-8px);
+}
+
+.solutionReferent article:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.solutionReferent article img{
+    width: 220px;
+    max-width: 45%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.solutionReferent article div{
+    flex: 1;
+}
+
+.solutionReferent article h3{
+    font-size: var(--h3-size);
+    color: var(--bleu);
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+
+.solutionReferent article p{
+    font-size: var(--p-size);
+    line-height: 1.8;
+    color: black;
+}
+
+/*Section solutionReferent */
+
+
+
+
+
+
+/* Section Service */
+.services{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-bottom:80px;
+}
+
+.services h2{
+    width:100%;
+    text-align:center;
+    color:var(--bleu);
+    font-size:var(--h2-size);
+    margin-bottom:5px;
+}
+
+.card{
+    width:310px;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    width:100px;
+    margin-bottom:20px;
+}
+
+.card h3{
+    color:var(--bleu);
+    margin-bottom:15px;
+    font-size:var(--h4-size);
+}
+
+.card p{
+    line-height:1.8;
+    font-size:var(--p-size);
+}
+
+.Information{
+    display: flex;
+    flex-direction: row;
+}
+
+.Information p{
+    margin-left: 10px;
+    font-size: 10px;
+    color: var(--bleu);
+}
+/* Section Service */
+
+
+
+
+
+
+
 
 
 /* DEBUT Section preuve */
@@ -286,7 +422,7 @@ header {
 
 .etoiles {
     font-size: 1.4rem;
-    color: #F3FF55;
+    color: #b3be0c;
 }
 .etoiles span {
     font-size: (var(--p-size));
