@@ -544,10 +544,9 @@ header {
 
     /* FIN Section CTA */
 
-    /* ========================= */
-/* FOOTER */
-/* ========================= */
 
+
+ /* Debut section footer */
 footer{
     background: var(--white);
     color: var(--bleu);
@@ -585,4 +584,4 @@ footer a:hover{
     border-color: rgb(222, 222, 222);
 }
 
-
+/* Fin section footer */
