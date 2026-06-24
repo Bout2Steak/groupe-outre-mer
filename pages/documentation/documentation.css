@@ -273,10 +273,11 @@ section h2{
     display:flex;
     justify-content:center;
     gap:30px;
+    
 }
 
 .images-maquette img{
-    width:1000px;
+    width:100%;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
@@ -305,7 +306,6 @@ section h2{
 
 .wireframe img{
     width:100%;
-    width:1200px;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
     display:flex;
@@ -325,7 +325,7 @@ iframe{
     display:block;
     width:100%;
     max-width:1200px;
-    height:850px;
+    height:650px;
     margin:80px auto;
     border:none;
     border-radius:20px;
