@@ -276,7 +276,7 @@ section h2{
 }
 
 .images-maquette img{
-    width:700px;
+    width:1000px;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
@@ -287,7 +287,7 @@ section h2{
     gap:30px;
 }
 .images-documentWire img{
-    width:600px;
+    width:800px;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
     
@@ -305,7 +305,7 @@ section h2{
 
 .wireframe img{
     width:100%;
-    width:1000px;
+    width:1200px;
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
     display:flex;
@@ -444,6 +444,50 @@ iframe{
     font-weight:bold;
     margin-bottom:10px;
 }
+
+
+.technologies{
+    background:#EDF3FC;
+    text-align:center;
+}
+
+.technologies h1{
+    color:var(--bleu);
+    font-size:var(--h2-size);
+    margin-bottom:50px;
+}
+
+.technologies ul{
+    list-style:none;
+    max-width:1000px;
+    margin:auto;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.technologies li{
+    background:white;
+    color:var(--bleu);
+    padding:18px 28px;
+    border-radius:20px;
+    font-size:1.1rem;
+    font-weight:600;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:.3s ease;
+    cursor:default;
+}
+
+.technologies li:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.12);
+    background:var(--bleu);
+    color:white;
+}
+
+
 
 /* ========================= */
 /* SECTION INSPIRATIONS */
